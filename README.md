@@ -1,5 +1,5 @@
 # banTangCopy
-高仿半糖APP
+高仿半糖APP 供学习使用
 
 ##Change Log
 ###2016年03月28日 
@@ -10,7 +10,7 @@ AppDelegate.h(.m)文件
 
 - Models<br> 
 数据类文件
->Models
+>Models<br>
 |- BTCmBaseModel.h<br> 
 |- BTCmBaseModel.m<br> 
 |- BTCmCollectionModel.h<br> 
@@ -18,7 +18,7 @@ AppDelegate.h(.m)文件
 
 - Macro<br>
 包含全局宏 全局常量的pch文件和常量声明类
->Macro
+>Macro<br>
 |- constant.h //常量声明类<br>
 |- banTangCopy.pch<br>
 
@@ -62,31 +62,31 @@ app的具体单元，如菜单、大厅、设置等等 每个单元内部包括C
 
 ####命名规范
 分类方法名以 btc_ 为前缀 <br>
-例:btc_arrayWithContentOfJSON:
+例:`btc_arrayWithContentOfJSON:`
 
 协议命名 BTCp+类名+delegate/datasorce <br>
-例:BTCpSettingViewControllerDelegate
+例:`BTCpSettingViewControllerDelegate`
 
 Block命名 BTCb为前缀 <br>
-例:@property (copy, nonatomic) NSString *(^BTCbCellDidClick)();
+例:`@property (copy, nonatomic) NSString *(^BTCbCellDidClick)();`
 
 Controller类以BTCc为前缀 以Controller为后缀<br>
-例:BTCcSettingViewController
+例:`BTCcSettingViewController`
 
 View类以BTCv为前缀 以对应类型父类标准名为后缀<br>
-例:BTCvSettingTableView BTCvSettingTableViewCell BTCvMenuButton
+例:`BTCvSettingTableView` `BTCvSettingTableViewCell` `BTCvMenuButton`
 
 Model类以BTCm为前缀<br>
-例:BTCmUserList
+例:`BTCmUserList`
 
 助手类(工具类) 类以BTCh为前缀 以Helper为后缀<br>
-例:BTChEmotionHelper
+例:`BTChEmotionHelper`
 
 全局父类 在以上命名基础上添加Base前缀 <br>
-例:BTCcBaseViewController BTCcBasePanelView
+例:`BTCcBaseViewController` `BTCcBasePanelView`
 
 所有宏和常量以BTC为前缀 接具体业务类型<br>
-例:BTCColorRandom BTCPathUserList BTCIdentifierSettingCell
+例:`BTCColorRandom` `BTCPathUserList` `BTCIdentifierSettingCell`
 
 ##项目组成员
 
