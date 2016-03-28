@@ -9,70 +9,23 @@
 /* Begin PBXBuildFile section */
 		1D31B7131CA9633F00E4160B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7121CA9633F00E4160B /* main.m */; };
 		1D31B7161CA9633F00E4160B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7151CA9633F00E4160B /* AppDelegate.m */; };
-		1D31B7191CA9633F00E4160B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7181CA9633F00E4160B /* ViewController.m */; };
-		1D31B71C1CA9633F00E4160B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71A1CA9633F00E4160B /* Main.storyboard */; };
 		1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71D1CA9633F00E4160B /* Assets.xcassets */; };
-		1D31B7211CA9633F00E4160B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71F1CA9633F00E4160B /* LaunchScreen.storyboard */; };
-		1D31B72C1CA9633F00E4160B /* banTangCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B72B1CA9633F00E4160B /* banTangCopyTests.m */; };
-		1D31B7371CA9633F00E4160B /* banTangCopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7361CA9633F00E4160B /* banTangCopyUITests.m */; };
 		1D8A2FEC1CA9677100140644 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEA1CA9677100140644 /* LICENSE */; };
-		1D8A2FED1CA9677100140644 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEB1CA9677100140644 /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1D31B7281CA9633F00E4160B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D31B7061CA9633F00E4160B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D31B70D1CA9633F00E4160B;
-			remoteInfo = banTangCopy;
-		};
-		1D31B7331CA9633F00E4160B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D31B7061CA9633F00E4160B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D31B70D1CA9633F00E4160B;
-			remoteInfo = banTangCopy;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D31B70E1CA9633F00E4160B /* banTangCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banTangCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D31B7121CA9633F00E4160B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D31B7141CA9633F00E4160B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D31B7151CA9633F00E4160B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D31B7171CA9633F00E4160B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D31B7181CA9633F00E4160B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D31B71B1CA9633F00E4160B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D31B71D1CA9633F00E4160B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1D31B7201CA9633F00E4160B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D31B7221CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D31B7271CA9633F00E4160B /* banTangCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banTangCopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D31B72B1CA9633F00E4160B /* banTangCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = banTangCopyTests.m; sourceTree = "<group>"; };
-		1D31B72D1CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D31B7321CA9633F00E4160B /* banTangCopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banTangCopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D31B7361CA9633F00E4160B /* banTangCopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = banTangCopyUITests.m; sourceTree = "<group>"; };
-		1D31B7381CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1D31B70B1CA9633F00E4160B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D31B7241CA9633F00E4160B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D31B72F1CA9633F00E4160B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +41,6 @@
 				1D8A2FEA1CA9677100140644 /* LICENSE */,
 				1D8A2FEB1CA9677100140644 /* README.md */,
 				1D31B7101CA9633F00E4160B /* banTangCopy */,
-				1D31B72A1CA9633F00E4160B /* banTangCopyTests */,
-				1D31B7351CA9633F00E4160B /* banTangCopyUITests */,
 				1D31B70F1CA9633F00E4160B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				1D31B70E1CA9633F00E4160B /* banTangCopy.app */,
-				1D31B7271CA9633F00E4160B /* banTangCopyTests.xctest */,
-				1D31B7321CA9633F00E4160B /* banTangCopyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,11 +58,7 @@
 			children = (
 				1D31B7141CA9633F00E4160B /* AppDelegate.h */,
 				1D31B7151CA9633F00E4160B /* AppDelegate.m */,
-				1D31B7171CA9633F00E4160B /* ViewController.h */,
-				1D31B7181CA9633F00E4160B /* ViewController.m */,
-				1D31B71A1CA9633F00E4160B /* Main.storyboard */,
 				1D31B71D1CA9633F00E4160B /* Assets.xcassets */,
-				1D31B71F1CA9633F00E4160B /* LaunchScreen.storyboard */,
 				1D31B7221CA9633F00E4160B /* Info.plist */,
 				1D31B7111CA9633F00E4160B /* Supporting Files */,
 			);
@@ -126,24 +71,6 @@
 				1D31B7121CA9633F00E4160B /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1D31B72A1CA9633F00E4160B /* banTangCopyTests */ = {
-			isa = PBXGroup;
-			children = (
-				1D31B72B1CA9633F00E4160B /* banTangCopyTests.m */,
-				1D31B72D1CA9633F00E4160B /* Info.plist */,
-			);
-			path = banTangCopyTests;
-			sourceTree = "<group>";
-		};
-		1D31B7351CA9633F00E4160B /* banTangCopyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1D31B7361CA9633F00E4160B /* banTangCopyUITests.m */,
-				1D31B7381CA9633F00E4160B /* Info.plist */,
-			);
-			path = banTangCopyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,42 +93,6 @@
 			productReference = 1D31B70E1CA9633F00E4160B /* banTangCopy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D31B7261CA9633F00E4160B /* banTangCopyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D31B73E1CA9633F00E4160B /* Build configuration list for PBXNativeTarget "banTangCopyTests" */;
-			buildPhases = (
-				1D31B7231CA9633F00E4160B /* Sources */,
-				1D31B7241CA9633F00E4160B /* Frameworks */,
-				1D31B7251CA9633F00E4160B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1D31B7291CA9633F00E4160B /* PBXTargetDependency */,
-			);
-			name = banTangCopyTests;
-			productName = banTangCopyTests;
-			productReference = 1D31B7271CA9633F00E4160B /* banTangCopyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1D31B7311CA9633F00E4160B /* banTangCopyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D31B7411CA9633F00E4160B /* Build configuration list for PBXNativeTarget "banTangCopyUITests" */;
-			buildPhases = (
-				1D31B72E1CA9633F00E4160B /* Sources */,
-				1D31B72F1CA9633F00E4160B /* Frameworks */,
-				1D31B7301CA9633F00E4160B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1D31B7341CA9633F00E4160B /* PBXTargetDependency */,
-			);
-			name = banTangCopyUITests;
-			productName = banTangCopyUITests;
-			productReference = 1D31B7321CA9633F00E4160B /* banTangCopyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -214,16 +105,6 @@
 					1D31B70D1CA9633F00E4160B = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = FAHA792R32;
-					};
-					1D31B7261CA9633F00E4160B = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = FAHA792R32;
-						TestTargetID = 1D31B70D1CA9633F00E4160B;
-					};
-					1D31B7311CA9633F00E4160B = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = FAHA792R32;
-						TestTargetID = 1D31B70D1CA9633F00E4160B;
 					};
 				};
 			};
@@ -241,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				1D31B70D1CA9633F00E4160B /* banTangCopy */,
-				1D31B7261CA9633F00E4160B /* banTangCopyTests */,
-				1D31B7311CA9633F00E4160B /* banTangCopyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,24 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D31B7211CA9633F00E4160B /* LaunchScreen.storyboard in Resources */,
 				1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */,
 				1D8A2FEC1CA9677100140644 /* LICENSE in Resources */,
-				1D31B71C1CA9633F00E4160B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D31B7251CA9633F00E4160B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D31B7301CA9633F00E4160B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,62 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D31B7191CA9633F00E4160B /* ViewController.m in Sources */,
 				1D31B7161CA9633F00E4160B /* AppDelegate.m in Sources */,
-				1D8A2FED1CA9677100140644 /* README.md in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D31B7231CA9633F00E4160B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D31B72C1CA9633F00E4160B /* banTangCopyTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D31B72E1CA9633F00E4160B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D31B7371CA9633F00E4160B /* banTangCopyUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1D31B7291CA9633F00E4160B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D31B70D1CA9633F00E4160B /* banTangCopy */;
-			targetProxy = 1D31B7281CA9633F00E4160B /* PBXContainerItemProxy */;
-		};
-		1D31B7341CA9633F00E4160B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D31B70D1CA9633F00E4160B /* banTangCopy */;
-			targetProxy = 1D31B7331CA9633F00E4160B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1D31B71A1CA9633F00E4160B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D31B71B1CA9633F00E4160B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1D31B71F1CA9633F00E4160B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D31B7201CA9633F00E4160B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D31B7391CA9633F00E4160B /* Debug */ = {
@@ -444,52 +257,6 @@
 			};
 			name = Release;
 		};
-		1D31B73F1CA9633F00E4160B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = banTangCopyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banTangCopy.app/banTangCopy";
-			};
-			name = Debug;
-		};
-		1D31B7401CA9633F00E4160B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = banTangCopyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banTangCopy.app/banTangCopy";
-			};
-			name = Release;
-		};
-		1D31B7421CA9633F00E4160B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = banTangCopyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = banTangCopy;
-			};
-			name = Debug;
-		};
-		1D31B7431CA9633F00E4160B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = banTangCopyUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = banTangCopy;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -507,24 +274,6 @@
 			buildConfigurations = (
 				1D31B73C1CA9633F00E4160B /* Debug */,
 				1D31B73D1CA9633F00E4160B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1D31B73E1CA9633F00E4160B /* Build configuration list for PBXNativeTarget "banTangCopyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D31B73F1CA9633F00E4160B /* Debug */,
-				1D31B7401CA9633F00E4160B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1D31B7411CA9633F00E4160B /* Build configuration list for PBXNativeTarget "banTangCopyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D31B7421CA9633F00E4160B /* Debug */,
-				1D31B7431CA9633F00E4160B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
