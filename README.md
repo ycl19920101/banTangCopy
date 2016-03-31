@@ -87,14 +87,3 @@ Model类以BTCm为前缀<br>
 
 所有宏和常量以BTC为前缀 接具体业务类型<br>
 例:`BTCColorRandom` `BTCPathUserList` `BTCIdentifierSettingCell`
-
-##项目组成员
-
-苏俊良
-王东银
-周博
-曾宇
-姚春林
-张彬
-商宏华
-孙林春
