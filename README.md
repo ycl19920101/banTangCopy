@@ -9,6 +9,37 @@
 配置部分项目参数 
 导入第三方框架:AFNetworking / SDWebImage / TTTAttributedLabel / Masonry
 
+注释规范
+
+//头文件基本信息。这个用在每个源代码文件的头文件的最开头。
+/*!  
+@header (文件名)
+@abstract (文件描述)
+@author (作者信息)
+@version (版本) (时间) Creation
+Copyright © 2016年 (作者名). All rights reserved.
+*/
+
+//类 属性 分类 协议的注释方法
+/*!
+@abstract 类 属性 分类 协议的说明
+@discussion 如有需要 则更加具体详细的说明写在这里 (可以无此行
+*/
+
+//函数 方法 的注释方法
+/*!
+@abstract 这里写这个方法的一些简要描述
+@discussion 如有必要 可以在这里写方法的更详细说明 可以无此行
+@param xxxxxx 参数说明 可多行
+@result xxxxxx 返回值说明
+*/
+
+//枚举信息
+/*!
+@abstract 关于这个枚举的一些基本信息
+@constant xxxxxx 枚举具体项的描述
+*/
+
 ###2016年03月28日 
 ####项目初始化 架设项目结构
 
@@ -97,6 +128,9 @@ Model类以BTCm为前缀<br>
 
 所有宏和常量以BTC为前缀 接具体业务类型<br>
 例:`BTCColorRandom` `BTCPathUserList` `BTCIdentifierSettingCell`
+
+所有枚举类型以BTCk为前缀 具体枚举值以相关枚举类型+枚举值说明命名<br>
+例: `BTCkWeekday` `BTCkWeekdayMonday`
 
 各模块标识词 
 Home (首页)
