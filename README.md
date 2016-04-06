@@ -4,7 +4,10 @@
 ##Change Log
 
 ###2016年04月06日
-####配置PCH文件 配置部分项目参数
+####配置项目
+配置PCH文件 
+配置部分项目参数 
+导入第三方框架:AFNetworking / SDWebImage / TTTAttributedLabel / Masonry
 
 ###2016年03月28日 
 ####项目初始化 架设项目结构
