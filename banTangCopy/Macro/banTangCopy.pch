@@ -1,0 +1,27 @@
+//
+//  banTangCopy.pch
+//  banTangCopy
+//
+//  Created by 苏俊良 on 16/4/6.
+//  Copyright © 2016年 LarrySue. All rights reserved.
+//
+
+#ifndef banTangCopy_pch
+#define banTangCopy_pch
+
+//Objective-C define
+#ifdef __OBJC2__
+
+//ConstantValue
+#import "Constant.h"
+
+//Print log
+#ifdef DEBUG
+#define BTCLog(...) NSLog(__VA_ARGS__)
+#else
+#define BTCLog(...)
+#endif /* Print log */
+
+#endif /* Objective-C define */
+
+#endif /* banTangCopy_pch */

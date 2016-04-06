@@ -19,7 +19,7 @@ AppDelegate.h(.m)文件
 - Macro<br>
 包含全局宏 全局常量的pch文件和常量声明类
 >Macro<br>
-|- constant.h //常量声明类<br>
+|- Constant.h //常量声明类<br>
 |- banTangCopy.pch<br>
 
 - General<br>
@@ -59,6 +59,9 @@ app的具体单元，如菜单、大厅、设置等等 每个单元内部包括C
 |-Plist<br>
 |-Image<br>
 
+- Other<br>
+其他文件 包括main.m README.md LICENSE等
+
 
 ####命名规范
 分类方法名以 btc_ 为前缀 <br>
@@ -83,7 +86,15 @@ Model类以BTCm为前缀<br>
 例:`BTChEmotionHelper`
 
 全局父类 在以上命名基础上添加Base前缀 <br>
-例:`BTCcBaseViewController` `BTCcBasePanelView`
+例:`BTCcBaseViewController` `BTCvBasePanelView`
 
 所有宏和常量以BTC为前缀 接具体业务类型<br>
 例:`BTCColorRandom` `BTCPathUserList` `BTCIdentifierSettingCell`
+
+各模块标识词 
+Home (首页)
+Square (广场)
+Show (秀)
+Message (消息)
+Personal (个人中心) 
+Login (登录)
