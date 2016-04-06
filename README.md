@@ -11,34 +11,34 @@
 
 注释规范
 
-//头文件基本信息。这个用在每个源代码文件的头文件的最开头。
-/*!  
-@header (文件名)
-@abstract (文件描述)
-@author (作者信息)
-@version (版本) (时间) Creation
-Copyright © 2016年 (作者名). All rights reserved.
-*/
+//头文件基本信息。这个用在每个源代码文件的头文件的最开头。<br>
+/*!  <br>
+@header (文件名)<br>
+@abstract (文件描述)<br>
+@author (作者信息)<br>
+@version (版本) (时间) Creation<br>
+Copyright © 2016年 (作者名). All rights reserved.<br>
+*/<br>
 
-//类 属性 分类 协议的注释方法
-/*!
-@abstract 类 属性 分类 协议的说明
-@discussion 如有需要 则更加具体详细的说明写在这里 (可以无此行
-*/
+//类 属性 分类 协议的注释方法<br>
+/*!<br>
+@abstract 类 属性 分类 协议的说明<br>
+@discussion 如有需要 则更加具体详细的说明写在这里 (可以无此行<br>
+*/<br>
 
-//函数 方法 的注释方法
-/*!
-@abstract 这里写这个方法的一些简要描述
-@discussion 如有必要 可以在这里写方法的更详细说明 可以无此行
-@param xxxxxx 参数说明 可多行
-@result xxxxxx 返回值说明
-*/
+//函数 方法 的注释方法<br>
+/*!<br>
+@abstract 这里写这个方法的一些简要描述<br>
+@discussion 如有必要 可以在这里写方法的更详细说明 可以无此行<br>
+@param xxxxxx 参数说明 可多行<br>
+@result xxxxxx 返回值说明<br>
+*/<br>
 
-//枚举信息
-/*!
-@abstract 关于这个枚举的一些基本信息
-@constant xxxxxx 枚举具体项的描述
-*/
+//枚举信息<br>
+/*!<br>
+@abstract 关于这个枚举的一些基本信息<br>
+@constant xxxxxx 枚举具体项的描述<br>
+*/<br>
 
 ###2016年03月28日 
 ####项目初始化 架设项目结构
