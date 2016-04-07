@@ -60,6 +60,7 @@
 		1D5B77881CB528200098235D /* PersonalDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PersonalDemo; sourceTree = "<group>"; };
 		1D5B778A1CB5282C0098235D /* ShowDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShowDemo; sourceTree = "<group>"; };
 		1D5B778C1CB528360098235D /* SquareDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SquareDemo; sourceTree = "<group>"; };
+		1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "banTangCopy-Bridging-Header.h"; path = "banTangCopy/banTangCopy-Bridging-Header.h"; sourceTree = "<group>"; };
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-banTangCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +123,7 @@
 		1D5B77601CB521150098235D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */,
 				1D31B71D1CA9633F00E4160B /* Assets.xcassets */,
 				1D31B7221CA9633F00E4160B /* Info.plist */,
 				1D31B7121CA9633F00E4160B /* main.m */,
@@ -453,6 +455,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
@@ -491,6 +494,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -501,11 +505,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = banTangCopy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/banTangCopy/banTangCopy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -515,11 +522,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = banTangCopy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.larrySue.banTangCopy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/banTangCopy/banTangCopy-Bridging-Header.h";
 			};
 			name = Release;
 		};
