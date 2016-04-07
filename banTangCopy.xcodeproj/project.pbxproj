@@ -27,7 +27,6 @@
 		1D5B77731CB522A60098235D /* ModelDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77681CB522A60098235D /* ModelDemo */; };
 		1D5B77741CB522A60098235D /* ResourcesDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B776A1CB522A60098235D /* ResourcesDemo */; };
 		1D5B777B1CB523F60098235D /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B777A1CB523F60098235D /* Constant.m */; };
-		1D5B777D1CB526980098235D /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B777C1CB526980098235D /* test.storyboard */; };
 		1D5B777F1CB527610098235D /* HelperDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B777E1CB527610098235D /* HelperDemo */; };
 		1D5B77811CB5276F0098235D /* GeneralDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77801CB5276F0098235D /* GeneralDemo */; };
 		1D5B77831CB527ED0098235D /* HomeDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77821CB527ED0098235D /* HomeDemo */; };
@@ -53,7 +52,6 @@
 		1D5B77751CB522C10098235D /* banTangCopy.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = banTangCopy.pch; sourceTree = "<group>"; };
 		1D5B77791CB523F60098235D /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		1D5B777A1CB523F60098235D /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
-		1D5B777C1CB526980098235D /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
 		1D5B777E1CB527610098235D /* HelperDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelperDemo; sourceTree = "<group>"; };
 		1D5B77801CB5276F0098235D /* GeneralDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GeneralDemo; sourceTree = "<group>"; };
 		1D5B77821CB527ED0098235D /* HomeDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeDemo; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				1D31B7121CA9633F00E4160B /* main.m */,
 				1D8A2FEA1CA9677100140644 /* LICENSE */,
 				1D8A2FEB1CA9677100140644 /* README.md */,
-				1D5B777C1CB526980098235D /* test.storyboard */,
 			);
 			name = Other;
 			path = ..;
@@ -326,7 +323,6 @@
 				1D5B77741CB522A60098235D /* ResourcesDemo in Resources */,
 				1D5B77851CB527FE0098235D /* LoginDemo in Resources */,
 				1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */,
-				1D5B777D1CB526980098235D /* test.storyboard in Resources */,
 				1D8A2FEC1CA9677100140644 /* LICENSE in Resources */,
 				1D5B778B1CB5282C0098235D /* ShowDemo in Resources */,
 				1D5B778D1CB528360098235D /* SquareDemo in Resources */,
@@ -569,6 +565,7 @@
 				1D5B77911CB5357B0098235D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

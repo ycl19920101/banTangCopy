@@ -22,6 +22,11 @@
 #define BTCLog(...)
 #endif /* Print log */
 
+//Color
+#define BTCColorClear [UIColor clearColor]
+#define BTCColorRandom [UIColor colorWithRed:((float)arc4random_uniform(256) / 255.0) green:((float)arc4random_uniform(256) / 255.0) blue:((float)arc4random_uniform(256) / 255.0) alpha:1.0]
+#define BTCColorWithRGBA(Red, Green, Blue, Alpha) [UIColor colorWithRed:Red/255.0 green:Green/255.0 blue:Blue/255.0 alpha:Alpha]
+
 #endif /* Objective-C define */
 
 #endif /* banTangCopy_pch */
