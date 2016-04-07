@@ -15,12 +15,16 @@
 
 //枚举值的注释和命名范例
 /*!
- @brief 这是一个关于性别的枚举
- @constant BTCkSexFemale 女性
- @constant BTCkSexMale 男性
+ *  @brief 枚举值的范例
  */
 typedef NS_ENUM(NSUInteger, BTCkSex) {
+    /*!
+     *  男
+     */
     BTCkSexFemale,
+    /*!
+     *  女
+     */
     BTCkSexMale,
 };
 
@@ -44,7 +48,7 @@ typedef NS_ENUM(NSUInteger, BTCkSex) {
 
 //类的命名和注释范例
 /*!
- *  @brief 这是一个类的范例(设置)
+ *  @brief 这是一个类的范例
  */
 @interface BTCmDemo : NSObject
 
