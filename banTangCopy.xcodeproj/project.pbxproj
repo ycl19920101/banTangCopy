@@ -37,7 +37,6 @@
 		1D5B778D1CB528360098235D /* SquareDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778C1CB528360098235D /* SquareDemo */; };
 		1D8A2FEC1CA9677100140644 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEA1CA9677100140644 /* LICENSE */; };
 		B901440387D1C85D2E87B772 /* libPods-banTangCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */; };
-		CBBE7BD01CB68BBF00C824EF /* BTCcMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBBE7BCF1CB68BBF00C824EF /* BTCcMessageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,8 +64,6 @@
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-banTangCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBBE7BCE1CB68BBF00C824EF /* BTCcMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCcMessageController.h; sourceTree = "<group>"; };
-		CBBE7BCF1CB68BBF00C824EF /* BTCcMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCcMessageController.m; sourceTree = "<group>"; };
 		F032FF7E1FADA31D504BBC97 /* Pods-banTangCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.release.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,8 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				1D5B77861CB5280B0098235D /* MessageDemo */,
-				CBBE7BCE1CB68BBF00C824EF /* BTCcMessageController.h */,
-				CBBE7BCF1CB68BBF00C824EF /* BTCcMessageController.m */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -412,7 +407,6 @@
 				1D5B77721CB522A60098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
-				CBBE7BD01CB68BBF00C824EF /* BTCcMessageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
