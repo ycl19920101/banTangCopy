@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		1D31B7131CA9633F00E4160B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D31B7121CA9633F00E4160B /* main.m */; };
-		1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D31B71D1CA9633F00E4160B /* Assets.xcassets */; };
 		1D5B77721CB522A60098235D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B77631CB522A60098235D /* AppDelegate.m */; };
 		1D5B77731CB522A60098235D /* ModelDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77681CB522A60098235D /* ModelDemo */; };
 		1D5B77741CB522A60098235D /* ResourcesDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B776A1CB522A60098235D /* ResourcesDemo */; };
@@ -31,19 +30,20 @@
 		1D5B77811CB5276F0098235D /* GeneralDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77801CB5276F0098235D /* GeneralDemo */; };
 		1D5B77831CB527ED0098235D /* HomeDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77821CB527ED0098235D /* HomeDemo */; };
 		1D5B77851CB527FE0098235D /* LoginDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77841CB527FE0098235D /* LoginDemo */; };
-		1D5B77871CB5280B0098235D /* MessageDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77861CB5280B0098235D /* MessageDemo */; };
 		1D5B77891CB528200098235D /* PersonalDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B77881CB528200098235D /* PersonalDemo */; };
 		1D5B778B1CB5282C0098235D /* ShowDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778A1CB5282C0098235D /* ShowDemo */; };
 		1D5B778D1CB528360098235D /* SquareDemo in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B778C1CB528360098235D /* SquareDemo */; };
 		1D8A2FEC1CA9677100140644 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A2FEA1CA9677100140644 /* LICENSE */; };
 		B901440387D1C85D2E87B772 /* libPods-banTangCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */; };
+		CBA517861CBE57F2006EDDC3 /* BTCcMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA517851CBE57F2006EDDC3 /* BTCcMessageViewController.m */; };
+		CBA517891CBE6B52006EDDC3 /* BTCvNoMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA517881CBE6B52006EDDC3 /* BTCvNoMessageView.m */; };
+		CBA5178B1CBE7570006EDDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA5178A1CBE7570006EDDC3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C9720F2EC13077CEBD124E /* Pods-banTangCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.debug.xcconfig"; sourceTree = "<group>"; };
 		1D31B70E1CA9633F00E4160B /* banTangCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banTangCopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D31B7121CA9633F00E4160B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = banTangCopy/main.m; sourceTree = "<group>"; };
-		1D31B71D1CA9633F00E4160B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = banTangCopy/Assets.xcassets; sourceTree = "<group>"; };
 		1D31B7221CA9633F00E4160B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = banTangCopy/Info.plist; sourceTree = "<group>"; };
 		1D5B77621CB522A60098235D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D5B77631CB522A60098235D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,7 +56,6 @@
 		1D5B77801CB5276F0098235D /* GeneralDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GeneralDemo; sourceTree = "<group>"; };
 		1D5B77821CB527ED0098235D /* HomeDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomeDemo; sourceTree = "<group>"; };
 		1D5B77841CB527FE0098235D /* LoginDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LoginDemo; sourceTree = "<group>"; };
-		1D5B77861CB5280B0098235D /* MessageDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MessageDemo; sourceTree = "<group>"; };
 		1D5B77881CB528200098235D /* PersonalDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PersonalDemo; sourceTree = "<group>"; };
 		1D5B778A1CB5282C0098235D /* ShowDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShowDemo; sourceTree = "<group>"; };
 		1D5B778C1CB528360098235D /* SquareDemo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SquareDemo; sourceTree = "<group>"; };
@@ -64,6 +63,11 @@
 		1D8A2FEA1CA9677100140644 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D8A2FEB1CA9677100140644 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8DA3F56182D52CCD8ACCB957 /* libPods-banTangCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-banTangCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA517841CBE57F2006EDDC3 /* BTCcMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCcMessageViewController.h; sourceTree = "<group>"; };
+		CBA517851CBE57F2006EDDC3 /* BTCcMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCcMessageViewController.m; sourceTree = "<group>"; };
+		CBA517871CBE6B52006EDDC3 /* BTCvNoMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCvNoMessageView.h; sourceTree = "<group>"; };
+		CBA517881CBE6B52006EDDC3 /* BTCvNoMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCvNoMessageView.m; sourceTree = "<group>"; };
+		CBA5178A1CBE7570006EDDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = banTangCopy/Assets.xcassets; sourceTree = "<group>"; };
 		F032FF7E1FADA31D504BBC97 /* Pods-banTangCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banTangCopy.release.xcconfig"; path = "Pods/Target Support Files/Pods-banTangCopy/Pods-banTangCopy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,8 +127,8 @@
 		1D5B77601CB521150098235D /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CBA5178A1CBE7570006EDDC3 /* Assets.xcassets */,
 				1D5B77A21CB601050098235D /* banTangCopy-Bridging-Header.h */,
-				1D31B71D1CA9633F00E4160B /* Assets.xcassets */,
 				1D31B7221CA9633F00E4160B /* Info.plist */,
 				1D31B7121CA9633F00E4160B /* main.m */,
 				1D8A2FEA1CA9677100140644 /* LICENSE */,
@@ -188,9 +192,9 @@
 		1D5B776B1CB522A60098235D /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				CBA5177E1CBE5583006EDDC3 /* Message */,
 				1D5B776C1CB522A60098235D /* Home */,
 				1D5B776D1CB522A60098235D /* Login */,
-				1D5B776E1CB522A60098235D /* Message */,
 				1D5B776F1CB522A60098235D /* Personal */,
 				1D5B77701CB522A60098235D /* Show */,
 				1D5B77711CB522A60098235D /* Square */,
@@ -212,14 +216,6 @@
 				1D5B77841CB527FE0098235D /* LoginDemo */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		1D5B776E1CB522A60098235D /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				1D5B77861CB5280B0098235D /* MessageDemo */,
-			);
-			path = Message;
 			sourceTree = "<group>";
 		};
 		1D5B776F1CB522A60098235D /* Personal */ = {
@@ -255,6 +251,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CBA5177E1CBE5583006EDDC3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				CBA5177F1CBE5583006EDDC3 /* Controller */,
+				CBA517801CBE5583006EDDC3 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		CBA5177F1CBE5583006EDDC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CBA517841CBE57F2006EDDC3 /* BTCcMessageViewController.h */,
+				CBA517851CBE57F2006EDDC3 /* BTCcMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CBA517801CBE5583006EDDC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBA517871CBE6B52006EDDC3 /* BTCvNoMessageView.h */,
+				CBA517881CBE6B52006EDDC3 /* BTCvNoMessageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +307,7 @@
 		1D31B7061CA9633F00E4160B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BTC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = LarrySue;
 				TargetAttributes = {
@@ -323,14 +347,13 @@
 			files = (
 				1D5B77731CB522A60098235D /* ModelDemo in Resources */,
 				1D5B77741CB522A60098235D /* ResourcesDemo in Resources */,
+				CBA5178B1CBE7570006EDDC3 /* Assets.xcassets in Resources */,
 				1D5B77851CB527FE0098235D /* LoginDemo in Resources */,
-				1D31B71E1CA9633F00E4160B /* Assets.xcassets in Resources */,
 				1D8A2FEC1CA9677100140644 /* LICENSE in Resources */,
 				1D5B778B1CB5282C0098235D /* ShowDemo in Resources */,
 				1D5B778D1CB528360098235D /* SquareDemo in Resources */,
 				1D5B77891CB528200098235D /* PersonalDemo in Resources */,
 				1D5B777F1CB527610098235D /* HelperDemo in Resources */,
-				1D5B77871CB5280B0098235D /* MessageDemo in Resources */,
 				1D5B77831CB527ED0098235D /* HomeDemo in Resources */,
 				1D5B77811CB5276F0098235D /* GeneralDemo in Resources */,
 			);
@@ -406,6 +429,8 @@
 			files = (
 				1D5B77721CB522A60098235D /* AppDelegate.m in Sources */,
 				1D5B777B1CB523F60098235D /* Constant.m in Sources */,
+				CBA517861CBE57F2006EDDC3 /* BTCcMessageViewController.m in Sources */,
+				CBA517891CBE6B52006EDDC3 /* BTCvNoMessageView.m in Sources */,
 				1D31B7131CA9633F00E4160B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
